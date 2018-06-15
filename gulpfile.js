@@ -11,7 +11,8 @@ var gulp           = require('gulp'),
 		cache          = require('gulp-cache'),
 		autoprefixer   = require('gulp-autoprefixer'),
 		ftp            = require('vinyl-ftp'),
-		notify         = require("gulp-notify"),
+        notify         = require("gulp-notify"),
+        vue            = require("vue"),
 		rsync          = require('gulp-rsync');
 
 	gulp.task('browser-sync', function() {
